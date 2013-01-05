@@ -1,0 +1,16 @@
+####################A Config Made By FuJX ###############################
+
+alias cgt='cd /home/jixing.fu && cd Documents/Codes/MCU/gtemp_chibi/'
+alias cgc='cd /home/jixing.fu && cd Documents/Codes/MCU/gcurrent_chibi/'
+alias ctgt='cd /home/jixing.fu && cd Documents/Codes/MCU/test_gtemp/'
+alias ccb='cd /home/jixing.fu/Documents/Codes/github/ChibiOS '
+alias c5gc='cd /home/jixing.fu/Documents/Codes/MCU/5gc && ls '
+alias mk='make'
+alias mc='make clean'
+alias mf='make flash'
+alias 关机='sudo shutdown -P 0 '
+alias chmodtty='sudo chmod 777 /dev/ttyUSB0'
+           
+alias cgr='cd /home/jixing.fu && cd Documents/Codes/MCU/greader_chibi/'
+
+alias cgra='cd /home/jixing.fu && cd Documents/Codes/RASPBERRY'

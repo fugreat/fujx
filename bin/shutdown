@@ -1,0 +1,11 @@
+#sudo shutdown -P 0
+ssh jixing.fu@192.168.0.75
+expect {
+                "want"        {send -- "yes\r"; exp_continue}
+                "password:"   {send -- "."}
+                "No route"    { exit }
+                }
+       
+        set timeout 20
+        expect  "*#"
+        send "exit\r"

@@ -1,0 +1,4 @@
+echo '------写入' $1 '到sw_log/log末尾----'
+echo $1 >> /home/jixing.fu/sw_log/log
+echo ""
+
