@@ -1,0 +1,5 @@
+a=`date`
+echo '#### '[$a]$1 >> /var/www/wiki/data/pages/my_todo_list_everyday.txt
+tail /var/www/wiki/data/pages/my_todo_list_everyday.txt
+echo ""
+

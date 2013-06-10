@@ -1,0 +1,5 @@
+des_path='fugreat@126.com'
+subject_1="$1"+"FROM GENEE_UBUNTU"
+echo $subject_1 | mutt -s $subject_1 fugreat@126.com -a $1
+echo "mailed"
+

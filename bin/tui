@@ -1,0 +1,5 @@
+des_path="hongxi.yu@192.168.0.$2:~/Desktop"
+echo 'wait..'
+scp -r $1 $des_path
+echo "ok"
+

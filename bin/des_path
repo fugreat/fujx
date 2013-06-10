@@ -1,0 +1,5 @@
+user1=jixing.fu
+echo '------写入' $1 '到jixing.fu/sw_log/vocabulary 尾----'
+echo $1 >> /home/$user1/sw_log/vocabulary
+echo ""
+
